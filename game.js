@@ -7,7 +7,7 @@ var buttonColours =["red", "blue", "green", "yellow"];
 var level = 0;
 
 var first = true;
-$(document).click(function start() {
+$(document).touchstart(function start() {
     if (first == true) {
         $("h1").text("Level " + level);
         nextSequence();
