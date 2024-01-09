@@ -45,7 +45,7 @@ function nextSequence() {
 
 function playSound(name) {
 
-    var audio = new Audio('https://mohammad-ariqat.github.io/jqury_BossLevel/sounds/'+name+'.mp3');
+    var audio = new Audio('https://mohammad-ariqat.github.io/jqury_BossLevel/'+name+'.mp3');
     
     audio.play();
 }
