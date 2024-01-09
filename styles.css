@@ -51,3 +51,15 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+.grey{
+  background-color: grey;
+  font-size: 40px;
+}
+.startBtn{
+  margin: 25px;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  border: 10px solid black;
+  border-radius: 40%;
+}
